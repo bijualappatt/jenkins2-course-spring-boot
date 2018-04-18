@@ -53,10 +53,10 @@ public class ChatService {
 	}
 
 	//Dummy method to test Jenkins SCM polling
-	public string onAlert()
-	{
-		return "Hello";
+	public int math() {
+ 		return 1+2;
 	}
+
 
 	public static class JacksonEncoderDecoder
 			implements Encoder<Message, String>, Decoder<String, Message> {
